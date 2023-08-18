@@ -1,0 +1,75 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    height: fit-content;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 30px;
+    width: 100%;
+}
+
+.input_container input {
+    width: 100%;
+}
+
+form input, form textarea {
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+form h5 {
+    color: black;
+}
+
+form label {
+    font-size: 20px;
+}
+
+form input[type=radio] {
+    height: 35px;
+    width: 35px;
+    border: 3px;
+}
+
+.radio_container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 25px;
+}
+
+.radio_container span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.ingredients_inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+}
+
+ul {
+    width: 50%;
+}
+
+textarea {
+    width: 100%;
+}
